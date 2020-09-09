@@ -10,6 +10,6 @@ cd fonts
 cd ..
 rm -rf fonts
 echo 'if [ "$TERM" != "linux" ]; then' >> ~/.bashrc
-echo '    source ~/pureline/pureline ~/.pureline.conf' >> ~/.bashrc
+echo '    source ~/pureline-pinephone/pureline ~/.pureline.conf' >> ~/.bashrc
 echo 'fi' >> ~/.bashrc
 echo "all done!"
