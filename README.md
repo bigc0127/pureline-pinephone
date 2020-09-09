@@ -114,7 +114,7 @@ The powerline fonts need more effort to work on tty screens, so a useful tip is 
 
 ### Auto install (bashrc)
 
-   $ sh pureline-pinephone/Auto-install-bashrc.sh
+    $ sh pureline-pinephone/Auto-install-bashrc.sh
   
 ## Customization
 
