@@ -89,11 +89,7 @@ All the modules are optional and can be enabled or disabled in a config file.
 
 ## Prerequisites
 
-* Some of the unicode symbols require a special font to be used in your terminal. Please use one of the powerline fonts available at: https://github.com/Lokaltog/powerline-fonts
-
-  * [DejaVu Sans Mono for Powerline](https://github.com/powerline/fonts/tree/master/DejaVuSansMono) is a popular choice
-  * The screenshots above use [Hack for Powerline](https://github.com/powerline/fonts/tree/master/Hack)
-
+* Some of the unicode symbols require a special font to be used in your terminal. 
 * Almost all current terminals have the unicode support needed by PureLine. If you have used PowerLine fonts before, then you already know if Pureline will be supported in your terminal. But if you do have issues with any of the symbols, try testing a different terminal, eg, `uxterm` in place of `xterm`.
 
 ## Install
@@ -101,8 +97,10 @@ All the modules are optional and can be enabled or disabled in a config file.
 ### Git Clone
 
     $ cd ~
-    $ git clone https://github.com/chris-marsh/pureline.git
-    $ cp pureline/configs/powerline_full_256col.conf ~/.pureline.conf
+    $ git clone https://github.com/bigc0127/pureline-pinephone.git
+    $ cp pureline-pinephone/configs/powerline_full_256col.conf ~/.pureline.conf
+    $ sh pureline-pinephone/install_fonts.sh (optional)
+    $ sh pureline-pinephone/append_bashrc.sh (optional)
 
 * In your `.bashrc` or `.profile`, whichever is used, source the `pureline` script as follows:
 
