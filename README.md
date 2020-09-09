@@ -92,9 +92,9 @@ All the modules are optional and can be enabled or disabled in a config file.
 * Some of the unicode symbols require a special font to be used in your terminal. 
 * Almost all current terminals have the unicode support needed by PureLine. If you have used PowerLine fonts before, then you already know if Pureline will be supported in your terminal. But if you do have issues with any of the symbols, try testing a different terminal, eg, `uxterm` in place of `xterm`.
 
-## Install
+## Manual Install
 
-### Git Clone
+### Git Clone 
 
     $ cd ~
     $ git clone https://github.com/bigc0127/pureline-pinephone.git
@@ -112,6 +112,10 @@ The powerline fonts need more effort to work on tty screens, so a useful tip is 
         source ~/pureline/pureline ~/.pureline.conf
     fi
 
+### Auto install (bashrc)
+
+   $ sh pureline-pinephone/Auto-install-bashrc.sh
+  
 ## Customization
 
 Some example configuration files are provided. The config file contains lines which are sourced by PureLine. The modules to be used are listed in the PL_MODULES environment variablee;
