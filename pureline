@@ -267,14 +267,7 @@ function battery_module {
     local fg_color="$2"
     local batt_dir
     local content
-    local batt_dir="/sys/class/power_supply/BAT"
-    if [ -d $batt_dir"0" ]; then
-        batt_dir=$batt_dir"0"
-    elif [ -d $batt_dir"1" ]; then
-        batt_dir=$batt_dir"1"
-    else
-        return 1
-    fi
+    local batt_dir="/sys/class/power_supply/axp20x-battery"
     local cap="$(<"$batt_dir/capacity")"
     local status="$(<"$batt_dir/status")"
 
