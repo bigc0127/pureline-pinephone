@@ -1,4 +1,4 @@
-PureLine-pinephone - A Pure Bash Powerline PS1 Command Prompt
+PureLine-pinephone - A Pure Bash Powerline PS1 Command Prompt With Fixes for Pinephone
 ===================================================
 
 *__Pureline is currently in development and subject to frequent changes. Updates are likely to change the format of the configuration file and therefore break configuration files from previous versions. Please be aware when updating, it is highly likely you will need to change your config file!__*
